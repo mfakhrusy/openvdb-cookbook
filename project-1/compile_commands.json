@@ -1,0 +1,30 @@
+[
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-std=c++11", 
+            "-pthread", 
+            "-O3", 
+            "-DNDEBUG", 
+            "-I", 
+            ".", 
+            "-I", 
+            "..", 
+            "-isystem", 
+            "/usr/include", 
+            "-isystem", 
+            "/usr/include/OpenEXR", 
+            "-isystem", 
+            "/usr/include", 
+            "-I", 
+            ".", 
+            "/usr/lib/libopenvdb.so.5.1.0",
+            "-o", 
+            "hellow_world", 
+            "main.cpp"
+        ], 
+        "directory": "/home/fakhru/Graduate/Thesis/OPENVDB_COOKBOOK/project-1", 
+        "file": "main.cpp"
+    }
+]
